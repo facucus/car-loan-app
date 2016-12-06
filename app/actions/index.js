@@ -31,7 +31,7 @@ export function selectModel (modelId) {
 }
 
 export function getModels () {
-  const url = 'http://test.tribaldevelop.com/cotred/models.php'
+  const url = 'http://xxxxxxxxxxx'
   return function(dispatch) {
     dispatch(fetchingModels());
     return fetch(url).then((response) => {
